@@ -222,6 +222,8 @@ img {
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   position: absolute;
+}
+.section-d .gallery a img {
   object-fit: cover;
 }
 
@@ -382,6 +384,11 @@ img {
 
 /* media queries */
 
+@media (min-width: 1400px) {
+  .section-d {
+    height: 1000px;
+  }
+}
 @media (max-width: 1000px) {
   .section-a img {
     width: 65%;
